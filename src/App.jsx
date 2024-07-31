@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import logo from "./assets/LOGO-NEW-VIDELIN-HR-TXT.png";
-import productImage from "./assets/ab-2.png";
+import productImage from "./assets/ab-2.avif";
 import testimonialImage from "./assets/Customer-Show-cc-01.webp"; // Adjust the path as necessary
 import productionImage from "./assets/WhatsApp-Image-2024-07-14-at-15.27.07.jpeg"; // Adjust the path as necessary
 import colorOptionsImage from "./assets/ab.png"; // Adjust the path as necessary
@@ -138,48 +138,63 @@ function App() {
           <h3 className="text-xl font-bold text-green-500 mb-4">
             Diskon Hari Ini, jadi hanya =
           </h3>
-          <div className="text-left mb-4">
-            <div className="flex items-center justify-between mb-2">
-              <span>Beli 1</span>
+          <div className="text-left mb-4 m-auto w-fit">
+            <div className="flex flex-col gap-5 mb-2">
               <div className="flex items-center">
-                <span className="bg-green-100 text-green-500 px-2 rounded-full text-sm mr-2">
-                  Hemat 50.000
+                <span className="inline-flex items-center">
+                  Beli 1
+                  <span className="bg-green-200 text-gray-900 rounded-lg px-2 py-1 text-xs font-semibold ml-2 flex items-center">
+                    Hemat 50.000
+                  </span>
                 </span>
-                <span className="line-through text-gray-500 mr-2">
-                  Rp185.000
-                </span>
-                <span className="text-green-500 font-bold">Rp135.000</span>
+                <div className="inline-flex items-center">
+                  <span className="line-through text-gray-600 text-sm font-normal mr-2">
+                    Rp185.000
+                  </span>
+                  <span className="text-green-700 text-xl font-medium">
+                    Rp135.000
+                  </span>
+                </div>
               </div>
-            </div>
-            <div className="flex items-center justify-between mb-2">
-              <span>Beli 2</span>
               <div className="flex items-center">
-                <span className="bg-green-100 text-green-500 px-2 rounded-full text-sm mr-2">
-                  Hemat 115.000
+                <span className="inline-flex items-center">
+                  Beli 2
+                  <span className="bg-green-200 text-gray-900 rounded-lg px-2 py-1 text-xs font-semibold ml-2 flex items-center">
+                    Hemat 115.000
+                  </span>
                 </span>
-                <span className="line-through text-gray-500 mr-2">
-                  Rp285.000
-                </span>
-                <span className="text-green-500 font-bold">Rp170.000</span>
+                <div className="inline-flex items-center">
+                  <span className="line-through text-gray-600 text-sm font-normal mr-2">
+                    Rp285.000
+                  </span>
+                  <span className="text-green-700 text-xl font-medium">
+                    Rp170.000
+                  </span>
+                </div>
               </div>
-            </div>
-            <div className="flex items-center justify-between mb-2">
-              <span>Beli 3</span>
               <div className="flex items-center">
-                <span className="bg-green-100 text-green-500 px-2 rounded-full text-sm mr-2">
-                  Hemat 160.000
+                <span className="inline-flex items-center">
+                  Beli 3
+                  <span className="bg-green-200 text-gray-900 rounded-lg px-2 py-1 text-xs font-semibold ml-2 flex items-center">
+                    Hemat 160.000
+                  </span>
                 </span>
-                <span className="line-through text-gray-500 mr-2">
-                  Rp355.000
-                </span>
-                <span className="text-green-500 font-bold">Rp195.000</span>
+                <div className="inline-flex items-center">
+                  <span className="line-through text-gray-600 text-sm font-normal mr-2">
+                    Rp355.000
+                  </span>
+                  <span className="text-green-700 text-xl font-medium">
+                    Rp195.000
+                  </span>
+                </div>
               </div>
             </div>
           </div>
+
           <img
             src={ctaArrowGif}
             alt="CTA Arrow"
-            className="w-full h-auto mb-4"
+            className="w-4/6 h-auto mb-4 m-auto"
           />
           <img
             src={promoButtonGif}
