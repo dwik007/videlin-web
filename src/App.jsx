@@ -114,7 +114,7 @@ function App() {
             className="w-full h-auto rounded-lg mb-4"
           />
         </section>
-        <section className="text-center p-4 border-2 border-dashed border-red-500">
+        <section className="text-center p-4 border-4 border-dashed border-red-500">
           <p className="text-gray-700 mb-2">
             Spesial untuk Kamu yang ingin pakai setelan ini biar terlihat lebih{" "}
             <span className="bg-pink-200 px-2 rounded">Langsing</span> dan{" "}
